@@ -53,7 +53,7 @@ simulation is added later, it should be optional.
 
 ## Lessons
 
-### 01. What A Rocket Is Actually Doing
+### 01. [What A Rocket Is Actually Doing](01_what_a_rocket_is_actually_doing.md)
 
 Core idea:
 
