@@ -328,10 +328,7 @@ hardware construction
 dangerous pressure systems
 ```
 
-This course is about understanding and modeling rockets, not building hazardous
-devices.
-
-## Step 10: Tiny Direction Check
+## Step 10: Three Quick Questions
 
 Question:
 
@@ -362,53 +359,17 @@ Answer:
 forward
 ```
 
-That is the basic rocket idea.
+Question:
 
-## Step 11: Write Your Lesson 01 Notes
-
-Write:
-
-```markdown
-# Lesson 01 Notes
-
-## Rocket In One Sentence
-
-A rocket:
-
-## Wrong Explanation
-
-Why "rockets push against air" is not the main explanation:
-
-## Momentum Picture
-
-If exhaust goes backward:
-
-## Thrust
-
-Thrust is:
-Unit:
-
-## Changing Mass
-
-Why rocket mass changes during flight:
-
-## Safe Scope
-
-This course studies:
-This course does not teach:
+```text
+If the rocket gives more backward momentum to exhaust each second, what happens
+to thrust?
 ```
 
-Keep the notes short. The goal is to get the first mental model right.
+Answer:
 
-## Done Checklist
-
-You are done when:
-
-- you can explain that rockets accelerate mass backward
-- you can explain why rockets do not need air to produce thrust
-- you can describe the rocket and exhaust momentum picture
-- you can define thrust as a force
-- you know rocket mass changes during flight
-- you know the course stays conceptual, mathematical, and simulation-safe
+```text
+thrust increases
+```
 
 Stop here. Lesson 02 studies the forces on a rocket.

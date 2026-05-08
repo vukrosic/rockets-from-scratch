@@ -194,45 +194,43 @@ If the rocket mass is `50 kg`:
 a = 200 / 50 = 4 m/s^2 upward
 ```
 
-## Step 10: Write Your Lesson 02 Notes
+## Step 10: Three Quick Questions
 
-Write:
+Question:
 
-```markdown
-# Lesson 02 Notes
-
-## Net Force
-
-Formula:
-
-## Four Forces
-
-Thrust:
-Weight:
-Drag:
-Lift:
-
-## Liftoff
-
-Simple condition:
-
-## Tiny Example
-
-thrust:
-weight:
-drag:
-net force:
-acceleration:
+```text
+If thrust is 1200 N upward, weight is 900 N downward, and drag is 100 N
+downward, what is the net force?
 ```
 
-## Done Checklist
+Answer:
 
-You are done when:
+```text
+200 N upward
+```
 
-- you can name the four rocket forces
-- you can explain net force
-- you can compute weight from mass
-- you can compute a simple liftoff force balance
-- you can draw a basic rocket free-body diagram
+Question:
+
+```text
+If a rocket is moving upward through air, which way does drag point?
+```
+
+Answer:
+
+```text
+downward
+```
+
+Question:
+
+```text
+If net force is upward, what happens to the rocket's velocity?
+```
+
+Answer:
+
+```text
+its upward velocity increases
+```
 
 Stop here. Lesson 03 studies thrust and impulse.
