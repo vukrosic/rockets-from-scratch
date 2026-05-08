@@ -1,7 +1,5 @@
 # Rockets From Scratch
 
-![Rocket forces and flight model](images/rocket-forces-flight-model.png)
-
 This course teaches rockets as physics and engineering models.
 
 It is not a propellant-making or engine-construction manual. We will avoid

@@ -1,7 +1,5 @@
 # Lesson 01: What A Rocket Is Actually Doing
 
-![Rocket forces and flight model](images/rocket-forces-flight-model.png)
-
 A rocket is a machine that accelerates mass backward so the rocket accelerates
 forward.
 
@@ -204,13 +202,39 @@ A newton is:
 In a simple rocket picture:
 
 ```text
-more exhaust mass per second
-or faster exhaust
-usually means more thrust
+thrust is how hard the rocket is being pushed right now
 ```
 
-This is only a first idea. Later lessons will make it more precise with thrust,
-mass flow, exhaust velocity, and pressure terms.
+Here is the intuition.
+
+If you gently toss one small ball backward every second, you feel a small push.
+
+If you throw many balls backward every second, you feel a bigger push.
+
+If you throw each ball backward faster, you also feel a bigger push.
+
+The rocket is doing the same kind of thing with exhaust:
+
+```text
+exhaust leaves backward
+rocket is pushed forward
+```
+
+So thrust depends on how much backward momentum the rocket gives to exhaust
+each second.
+
+That sentence is the important one:
+
+```text
+more backward momentum per second -> more thrust
+```
+
+Later, we will make this precise with mass flow rate and exhaust velocity.
+For now, keep the simple idea:
+
+```text
+thrust is the forward push caused by throwing exhaust backward
+```
 
 ## Step 7: The Rocket Is A Changing-Mass System
 
