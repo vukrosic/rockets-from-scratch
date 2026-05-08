@@ -99,13 +99,47 @@ We will model drag more carefully in Lesson 05.
 
 ## Step 5: Lift Or Side Force
 
-Lift is an aerodynamic force perpendicular to the airflow.
+Lift means aerodynamic force perpendicular to the airflow.
 
-For a simple straight launch, lift may be ignored at first.
+For rockets, it is often easier to think of this as a side force.
 
-But in reality, airflow and vehicle angle can produce side forces.
+Imagine the rocket is moving upward, but the nose is tilted a little.
 
-We keep it in the force picture because real rockets are not perfectly ideal.
+Now the air is not hitting the rocket perfectly straight from the front.
+The airflow hits the side of the rocket body and fins.
+
+That can create a force like this:
+
+```text
+rocket tilted into airflow -> air pushes sideways on rocket
+```
+
+So yes, in a simple mental picture, this force can push the rocket sideways.
+
+It can also create a turning effect.
+
+If the side force acts behind the center of mass, it can help rotate the rocket
+back into the airflow.
+
+If the side force acts in the wrong place, it can rotate the rocket farther away
+from the airflow and make the motion worse.
+
+That is why side force is connected to stability.
+
+For now, keep this version:
+
+```text
+drag:
+    force opposite motion through air
+
+lift or side force:
+    sideways aerodynamic force from tilted airflow
+```
+
+In a perfectly straight launch through still air, side force may be close to
+zero.
+
+In a real launch, wind, tilt, steering, and vehicle shape can make it matter.
 
 ## Step 6: Example Force Balance
 
