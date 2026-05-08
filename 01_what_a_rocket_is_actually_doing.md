@@ -1,5 +1,7 @@
 # Lesson 01: What A Rocket Is Actually Doing
 
+![Rocket forces and flight model](images/rocket-forces-flight-model.png)
+
 A rocket is a machine that accelerates mass backward so the rocket accelerates
 forward.
 
