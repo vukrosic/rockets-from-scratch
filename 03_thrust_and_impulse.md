@@ -4,6 +4,21 @@ Thrust is a force.
 
 Impulse is that force accumulated over time.
 
+Why care about impulse?
+
+Because thrust alone tells you only the push at one moment.
+
+Impulse tells you the total push delivered across the burn.
+
+That is what changes the rocket's momentum.
+
+If you want to compare two burns, you need both:
+
+```text
+how hard the engine pushes
+how long it pushes
+```
+
 This lesson teaches the difference between:
 
 ```text
