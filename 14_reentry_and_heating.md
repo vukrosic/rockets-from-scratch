@@ -4,6 +4,14 @@ Coming back to Earth is not just the reverse of going up.
 
 Reentry is a high-energy atmospheric problem.
 
+Why care about reentry?
+
+Because reaching space is only half the problem if the mission has to return.
+
+A spacecraft in orbit carries enormous kinetic energy.
+
+Reentry is about managing where that energy goes.
+
 ## Step 1: Why Reentry Heats Things Up
 
 A spacecraft in orbit has a lot of kinetic energy.
@@ -76,35 +84,43 @@ Answer:
 because orbital speed is very high, so drag converts a lot of kinetic energy into heat
 ```
 
-## Step 7: Write Your Lesson 14 Notes
+## Step 7: Three Quick Questions
 
-Write:
+Question:
 
-```markdown
-# Lesson 14 Notes
-
-## Why Reentry Heats Up
-
-## Drag During Reentry
-
-## Entry Angle
-
-Too steep:
-Too shallow:
-
-## Heat Shield
-
-What does it do?
+```text
+Why does reentry create so much heating?
 ```
 
-## Done Checklist
+Answer:
 
-You are done when:
+```text
+the spacecraft has high kinetic energy, and drag transfers energy into the air
+and vehicle surroundings
+```
 
-- you can explain why reentry heats things up
-- you can explain the role of drag
-- you can explain why entry angle matters
-- you can explain what a heat shield does
-- you know reentry is an energy and thermal problem
+Question:
+
+```text
+What can happen if entry is too steep?
+```
+
+Answer:
+
+```text
+too much heating too quickly
+```
+
+Question:
+
+```text
+What is the purpose of a heat shield?
+```
+
+Answer:
+
+```text
+to protect the vehicle by managing the thermal load
+```
 
 Stop here. Lesson 15 covers guidance, navigation, and control.

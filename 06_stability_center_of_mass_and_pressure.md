@@ -6,6 +6,17 @@ It must also point the right way while moving through air.
 
 That is the stability problem.
 
+Why care about stability?
+
+Because a rocket that has enough thrust can still fail as a flight vehicle if it
+points the wrong way.
+
+The basic question is:
+
+```text
+when airflow tilts the rocket, does the rocket tend to correct itself or tumble?
+```
+
 ## Step 1: Center Of Mass
 
 The center of mass is the balance point of the rocket's mass.
@@ -91,34 +102,43 @@ Why?
 
 Because the aerodynamic force behind it tends to restore the pointing direction.
 
-## Step 8: Write Your Lesson 06 Notes
+## Step 8: Three Quick Questions
 
-Write:
+Question:
 
-```markdown
-# Lesson 06 Notes
-
-## Center Of Mass
-
-## Center Of Pressure
-
-## Stability Rule
-
-Which should be in front?
-
-## Fins
-
-What do they help with?
+```text
+Which should usually be farther forward for passive stability: center of mass
+or center of pressure?
 ```
 
-## Done Checklist
+Answer:
 
-You are done when:
+```text
+center of mass
+```
 
-- you can define center of mass
-- you can define center of pressure
-- you can explain passive stability
-- you can explain why fins help
-- you know stability changes when mass changes during flight
+Question:
+
+```text
+What do fins usually help move backward?
+```
+
+Answer:
+
+```text
+center of pressure
+```
+
+Question:
+
+```text
+Why can rocket stability change during flight?
+```
+
+Answer:
+
+```text
+propellant burns, so the mass distribution can change
+```
 
 Stop here. Lesson 07 builds a simple flight model.

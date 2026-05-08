@@ -4,6 +4,16 @@ Specific impulse is a standard way to compare rocket propulsion performance.
 
 It tells you how much impulse you get per unit of propellant weight flow.
 
+Why care about specific impulse?
+
+Because rockets are usually limited by propellant.
+
+Specific impulse helps answer:
+
+```text
+how much useful push do we get from the propellant we spend?
+```
+
 ## Step 1: Why We Need A New Metric
 
 Thrust alone is not enough.
@@ -105,38 +115,43 @@ Answer:
 Isp goes up
 ```
 
-## Step 8: Write Your Lesson 08 Notes
+## Step 8: Three Quick Questions
 
-Write:
+Question:
 
-```markdown
-# Lesson 08 Notes
-
-## Specific Impulse
-
-What it compares:
-
-## Isp Units
-
-Why seconds show up:
-
-## Thrust vs Isp
-
-Are they the same thing?
-
-## Mission Tradeoff
-
-Why does mission phase matter?
+```text
+Does high specific impulse always mean high thrust?
 ```
 
-## Done Checklist
+Answer:
 
-You are done when:
+```text
+no
+```
 
-- you can explain why we need specific impulse
-- you can describe what higher Isp means
-- you can explain why Isp and thrust are different
-- you can connect Isp to mission needs
-- you know it is a comparison metric, not the whole engine story
+Question:
+
+```text
+If the same thrust is produced with less propellant weight flow, what happens
+to Isp?
+```
+
+Answer:
+
+```text
+Isp goes up
+```
+
+Question:
+
+```text
+Why might a launch engine and an in-space engine have different priorities?
+```
+
+Answer:
+
+```text
+launch needs strong thrust, while space maneuvers may care more about efficiency
+```
 
 Stop here. Lesson 09 introduces the rocket equation.

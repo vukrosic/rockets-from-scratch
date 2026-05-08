@@ -5,6 +5,15 @@ the same plane.
 
 It is one of the simplest useful orbital maneuvers.
 
+Why care about it?
+
+Because it is the first clean example of using orbital mechanics instead of
+just "pointing at the destination."
+
+A spacecraft does not drive through space in a straight line.
+
+It changes orbit, coasts, then changes orbit again.
+
 ## Step 1: The Two-Burn Idea
 
 The basic plan:
@@ -65,35 +74,42 @@ Answer:
 2
 ```
 
-## Step 8: Write Your Lesson 13 Notes
+## Step 8: Three Quick Questions
 
-Write:
+Question:
 
-```markdown
-# Lesson 13 Notes
-
-## Hohmann Transfer
-
-What is it?
-
-## Burn 1
-
-## Burn 2
-
-## Assumptions
-
-Same plane:
-Circular start and end:
+```text
+How many main burns are in a basic Hohmann transfer?
 ```
 
-## Done Checklist
+Answer:
 
-You are done when:
+```text
+2
+```
 
-- you can explain the two-burn structure
-- you can explain the coasting ellipse
-- you can explain circularization
-- you can state the same-plane assumption
-- you know Hohmann transfer is a standard baseline maneuver
+Question:
+
+```text
+What happens after the first burn?
+```
+
+Answer:
+
+```text
+the spacecraft coasts along a transfer ellipse
+```
+
+Question:
+
+```text
+What does the second burn do?
+```
+
+Answer:
+
+```text
+it circularizes at the destination orbit
+```
 
 Stop here. Lesson 14 covers reentry and heating.

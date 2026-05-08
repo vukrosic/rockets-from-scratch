@@ -4,6 +4,19 @@ Drag is the force that resists motion through air.
 
 Rockets spend part of their flight in atmosphere, so drag matters.
 
+Why care about drag?
+
+Because drag steals some of the rocket's useful upward motion.
+
+The engine may be producing thrust, but the atmosphere pushes back:
+
+```text
+thrust helps the rocket speed up
+drag fights motion through air
+```
+
+This is why the lower atmosphere is such an important part of launch.
+
 ## Step 1: Drag Direction
 
 Drag points opposite the direction of motion through air.
@@ -122,41 +135,42 @@ because:
 100^2 / 50^2 = 4
 ```
 
-## Step 8: Write Your Lesson 05 Notes
+## Step 8: Three Quick Questions
 
-Write:
+Question:
 
-```markdown
-# Lesson 05 Notes
-
-## Drag Direction
-
-## Drag Model
-
-Formula:
-What each symbol means:
-
-## Speed Effect
-
-If speed doubles:
-
-## Tiny Example
-
-rho:
-v:
-C_d:
-A:
-drag:
+```text
+If a rocket is moving upward through air, which way does drag point?
 ```
 
-## Done Checklist
+Answer:
 
-You are done when:
+```text
+downward
+```
 
-- you can state drag direction
-- you can name the drag model variables
-- you can explain why drag grows quickly with speed
-- you can compute a simple drag example
-- you know why dense atmosphere matters
+Question:
+
+```text
+If speed doubles in the same air, what happens to drag in a v^2 model?
+```
+
+Answer:
+
+```text
+drag becomes 4 times larger
+```
+
+Question:
+
+```text
+Why can drag become less important later in flight even if the rocket is fast?
+```
+
+Answer:
+
+```text
+air density decreases as the rocket climbs
+```
 
 Stop here. Lesson 06 studies rocket stability.

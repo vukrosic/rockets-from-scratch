@@ -5,6 +5,16 @@ correct its motion.
 
 That is guidance, navigation, and control.
 
+Why care about GNC?
+
+Because physics alone does not make the vehicle follow the mission.
+
+The vehicle needs a loop:
+
+```text
+estimate state -> compare to goal -> command correction
+```
+
 ## Step 1: The Three Words
 
 Guidance:
@@ -90,38 +100,42 @@ reentry may be unsafe
 
 So this is not optional at real scale.
 
-## Step 7: Write Your Lesson 15 Notes
+## Step 7: Three Quick Questions
 
-Write:
+Question:
 
-```markdown
-# Lesson 15 Notes
-
-## GNC
-
-Guidance:
-Navigation:
-Control:
-
-## Feedback Loop
-
-Desired state:
-Current state:
-Error:
-
-## Sensors and Actuators
-
-Examples:
+```text
+Which part decides the desired path?
 ```
 
-## Done Checklist
+Answer:
 
-You are done when:
+```text
+guidance
+```
 
-- you can define guidance, navigation, and control
-- you can explain feedback
-- you can name sensors and actuators
-- you can explain why control matters in flight
-- you can distinguish passive stability from active control
+Question:
+
+```text
+Which part estimates the current position and motion?
+```
+
+Answer:
+
+```text
+navigation
+```
+
+Question:
+
+```text
+Which part turns commands into actual motion changes?
+```
+
+Answer:
+
+```text
+control
+```
 
 Stop here. Lesson 16 is the mission capstone.

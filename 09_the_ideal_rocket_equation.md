@@ -4,6 +4,16 @@ The ideal rocket equation connects delta-v, exhaust speed, and mass ratio.
 
 It is one of the most important rocket formulas in engineering.
 
+Why care about it?
+
+Because it explains the brutal tradeoff at the center of rocketry:
+
+```text
+more delta-v usually requires much more propellant
+```
+
+It shows why rockets are mostly propellant and why mass matters so much.
+
 ## Step 1: What Delta-V Means
 
 Delta-v means change in velocity.
@@ -131,39 +141,42 @@ mass ratio is:
 
 So the rocket has doubled its ideal mass ratio.
 
-## Step 8: Write Your Lesson 09 Notes
+## Step 8: Three Quick Questions
 
-Write:
+Question:
 
-```markdown
-# Lesson 09 Notes
-
-## Delta-V
-
-Meaning:
-
-## Ideal Rocket Equation
-
-Formula:
-What each symbol means:
-
-## Mass Ratio
-
-Definition:
-
-## What The Equation Ignores
-
-List:
+```text
+What does delta-v mean?
 ```
 
-## Done Checklist
+Answer:
 
-You are done when:
+```text
+change in velocity
+```
 
-- you can state the ideal rocket equation
-- you can define delta-v
-- you can define mass ratio
-- you can compute a simple example
-- you can name the main things the ideal equation ignores
+Question:
+
+```text
+If m0 = 200 kg and mf = 100 kg, what is the mass ratio?
+```
+
+Answer:
+
+```text
+200 / 100 = 2
+```
+
+Question:
+
+```text
+Why does the logarithm make rocket design hard?
+```
+
+Answer:
+
+```text
+delta-v grows slowly as mass ratio increases
+```
 
 Stop here. Lesson 10 explains staging.

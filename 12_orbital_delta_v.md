@@ -4,6 +4,21 @@ Spacecraft change orbit by changing velocity.
 
 Delta-v is the language of those changes.
 
+Why care about orbital delta-v?
+
+Because once a spacecraft is in orbit, missions are planned as velocity changes:
+
+```text
+raise orbit
+lower orbit
+transfer
+correct course
+arrive
+deorbit
+```
+
+Each action spends some delta-v.
+
 ## Step 1: Delta-V Is Mission Currency
 
 If a mission needs a certain orbit change, it needs a certain delta-v budget.
@@ -81,39 +96,42 @@ Answer:
 raises orbital energy and changes orbit shape
 ```
 
-## Step 7: Write Your Lesson 12 Notes
+## Step 7: Three Quick Questions
 
-Write:
+Question:
 
-```markdown
-# Lesson 12 Notes
-
-## Delta-V
-
-Meaning:
-
-## Burns
-
-Prograde:
-Retrograde:
-
-## Orbit Shape
-
-How burns change shape:
-
-## Mission Budget
-
-What is it?
+```text
+What does a prograde burn point along?
 ```
 
-## Done Checklist
+Answer:
 
-You are done when:
+```text
+the direction of motion
+```
 
-- you can define delta-v in mission terms
-- you can explain prograde and retrograde burns
-- you can define apoapsis and periapsis
-- you can explain that burns change orbit shape
-- you can explain delta-v budgeting
+Question:
+
+```text
+What does a retrograde burn point against?
+```
+
+Answer:
+
+```text
+the direction of motion
+```
+
+Question:
+
+```text
+What is a delta-v budget?
+```
+
+Answer:
+
+```text
+the sum of velocity changes needed for mission phases
+```
 
 Stop here. Lesson 13 explains Hohmann transfers.

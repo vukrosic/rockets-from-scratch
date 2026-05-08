@@ -5,6 +5,15 @@ Orbit is not just "going high."
 Orbit is moving fast enough sideways that you keep falling around the planet
 instead of hitting it.
 
+Why care about this?
+
+Because many beginners think spaceflight means going straight up.
+
+Getting to orbit is mostly about gaining sideways speed.
+
+Altitude helps you get above thick atmosphere, but sideways velocity is what
+makes the path keep curving around Earth.
+
 ## Step 1: The Orbit Idea
 
 If you throw something forward, gravity pulls it downward.
@@ -82,32 +91,42 @@ Answer:
 extra sideways speed
 ```
 
-## Step 8: Write Your Lesson 11 Notes
+## Step 8: Three Quick Questions
 
-Write:
+Question:
 
-```markdown
-# Lesson 11 Notes
-
-## Orbit In One Sentence
-
-## Why Altitude Alone Is Not Orbit
-
-## Gravity Loss
-
-## Drag Loss
-
-## Tiny Check
+```text
+What makes orbit different from a high arc?
 ```
 
-## Done Checklist
+Answer:
 
-You are done when:
+```text
+sideways speed
+```
 
-- you can explain orbit as falling around Earth
-- you can explain why sideways speed matters
-- you can explain gravity loss
-- you can explain drag loss
-- you know orbit is about both altitude and speed
+Question:
+
+```text
+Why is altitude alone not enough for orbit?
+```
+
+Answer:
+
+```text
+without enough horizontal velocity, the vehicle falls back
+```
+
+Question:
+
+```text
+Why do launch trajectories gradually turn sideways?
+```
+
+Answer:
+
+```text
+orbit needs horizontal velocity, not only height
+```
 
 Stop here. Lesson 12 covers orbital maneuvers and delta-v.

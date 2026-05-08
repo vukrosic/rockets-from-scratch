@@ -2,6 +2,18 @@
 
 This lesson builds a simple rocket flight model in one dimension.
 
+Why care about a simple model?
+
+Because the first useful rocket simulation is not complicated.
+
+It repeats one loop:
+
+```text
+forces -> acceleration -> velocity -> altitude
+```
+
+That loop is the beginning of flight simulation.
+
 We will only track:
 
 ```text
@@ -171,42 +183,42 @@ If `Delta t = 2 s`, velocity changes by:
 Delta v = 4 * 2 = 8 m/s
 ```
 
-## Step 8: Write Your Lesson 07 Notes
+## Step 8: Three Quick Questions
 
-Write:
+Question:
 
-```markdown
-# Lesson 07 Notes
-
-## State Variables
-
-altitude:
-velocity:
-mass:
-
-## Time Step Update
-
-Acceleration:
-Velocity update:
-Altitude update:
-
-## During Burn
-
-Net force:
-
-## After Burnout
-
-What changes?
+```text
+What are the three main state variables in this simple model?
 ```
 
-## Done Checklist
+Answer:
 
-You are done when:
+```text
+altitude, velocity, mass
+```
 
-- you can name the state variables
-- you can compute acceleration from net force
-- you can update velocity and altitude
-- you can describe burn and coast phases
-- you understand the step-by-step flight model
+Question:
+
+```text
+If net force is 80 N and mass is 20 kg, what is acceleration?
+```
+
+Answer:
+
+```text
+a = 80 / 20 = 4 m/s^2
+```
+
+Question:
+
+```text
+What changes after burnout?
+```
+
+Answer:
+
+```text
+thrust becomes zero, and the rocket coasts under gravity and drag
+```
 
 Stop here. Lesson 08 explains specific impulse.

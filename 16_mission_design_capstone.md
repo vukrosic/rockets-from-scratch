@@ -4,6 +4,16 @@ A rocket mission is a chain of models and assumptions.
 
 This capstone ties the whole course together.
 
+Why care about mission design?
+
+Because rockets are not solved one formula at a time.
+
+Every mission is a connected system:
+
+```text
+goal -> phases -> assumptions -> forces -> delta-v -> mass -> risk
+```
+
 ## Step 1: Start With The Mission
 
 Pick a mission goal:
@@ -103,53 +113,75 @@ mission design
 That is enough to understand a lot of real rocket engineering at a first-pass
 level.
 
-## Step 7: Capstone Exercise
+## Step 7: Example Mission Model
 
-Write one short mission plan in your notes.
-
-Example structure:
+A first-pass mission model can be very short:
 
 ```markdown
 Mission:
+    reach a low circular orbit
+
 Goal:
+    clear the atmosphere, build horizontal velocity, insert into orbit
+
 Main phases:
+    liftoff
+    ascent
+    gravity turn
+    stage separation
+    orbit insertion
+
 Main assumptions:
-Main delta-v costs:
+    simple drag model
+    simple delta-v budget
+    staged vehicle
+
 Main risks:
+    drag losses
+    gravity losses
+    stability and control errors
 ```
 
 Do not make it a construction plan.
 
 Make it a model and explanation.
 
-## Step 8: Write Your Lesson 16 Notes
+## Step 8: Three Quick Questions
 
-Write:
+Question:
 
-```markdown
-# Lesson 16 Notes
-
-## Mission Goal
-
-## Phases
-
-## Assumptions
-
-## Delta-V Budget
-
-## Mass Budget
-
-## Main Risks
+```text
+Why do engineers split a mission into phases?
 ```
 
-## Done Checklist
+Answer:
 
-You are done when:
+```text
+different phases use different models and constraints
+```
 
-- you can break a mission into phases
-- you can name assumptions clearly
-- you can explain delta-v and mass budgeting
-- you can describe a simple rocket mission in your own words
-- you can see how the course pieces fit together
+Question:
+
+```text
+What should you do when using a simplified model?
+```
+
+Answer:
+
+```text
+state the assumptions
+```
+
+Question:
+
+```text
+What connects rocket equation thinking to mission design?
+```
+
+Answer:
+
+```text
+delta-v and mass budgets
+```
 
 Stop here. You now have a complete first-pass rockets from scratch course.

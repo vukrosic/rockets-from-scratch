@@ -5,6 +5,14 @@ carry dead mass.
 
 This is one of the main ways rockets increase total delta-v.
 
+Why care about staging?
+
+Because the rocket equation punishes dead mass.
+
+An empty tank, empty engine section, or empty booster still has mass.
+
+If you keep carrying it, every later burn must accelerate that useless mass.
+
 ## Step 1: Why Staging Helps
 
 The rocket equation depends on mass ratio.
@@ -73,13 +81,24 @@ The stage dry mass still matters because it is dead weight until separation.
 
 Each stage has its own mass ratio and exhaust performance.
 
-The total mission delta-v is roughly the sum of stage delta-v contributions.
+For a real stage calculation, the mass ratio should include everything that
+stage is pushing during that burn:
+
+```text
+stage
+upper stages
+payload
+remaining propellant
+```
+
+The total mission delta-v is roughly the sum of the stage delta-v
+contributions.
 
 That is why rocket design is often a budget problem.
 
 ## Step 7: Tiny Hand Check
 
-Suppose a stage has:
+Suppose a stage alone has:
 
 ```text
 wet mass = 1000 kg
@@ -92,40 +111,52 @@ Mass ratio:
 1000 / 200 = 5
 ```
 
-If you can drop a dry stage and start another burn, the next stage no longer
-carries those `200 kg`.
+That simple number describes the stage by itself.
 
-## Step 8: Write Your Lesson 10 Notes
+During an actual launch, the stage also carries upper stages and payload.
 
-Write:
+The key staging idea is still:
 
-```markdown
-# Lesson 10 Notes
-
-## Why Staging Helps
-
-## Before And After Separation
-
-## Mass Terms
-
-Wet mass:
-Dry mass:
-Payload:
-
-## Tiny Example
-
-mass ratio before staging:
-why the next stage benefits:
+```text
+after separation, the next stage no longer carries the empty first stage
 ```
 
-## Done Checklist
+## Step 8: Three Quick Questions
 
-You are done when:
+Question:
 
-- you can explain staging in one sentence
-- you can explain why empty stages are dropped
-- you can define wet mass, dry mass, and payload
-- you can explain why staging helps delta-v
-- you can read a simple stage sequence
+```text
+Why do rockets drop empty stages?
+```
+
+Answer:
+
+```text
+so later stages do not have to accelerate dead mass
+```
+
+Question:
+
+```text
+What does dry mass mean?
+```
+
+Answer:
+
+```text
+the stage mass after propellant is gone
+```
+
+Question:
+
+```text
+How do stage delta-v contributions combine in a simple mission budget?
+```
+
+Answer:
+
+```text
+they are roughly added together
+```
 
 Stop here. Lesson 11 starts orbital motion.
