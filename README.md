@@ -3,6 +3,8 @@
 Step-by-step lessons for understanding rockets through physics, math, and simple
 models.
 
+YouTube - https://youtu.be/pTMLQfBoXc4
+
 Start at Lesson 01 and read in order.
 
 ## Lessons
